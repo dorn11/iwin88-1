@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+  }
+  header {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+    background-color: rgb(207, 148, 12);
+   
+  }
+  .navigation a{
+    color: #ece6e8;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 20px;
+    padding-left: 10px;
+
+  }
+  .nav-item a:hover{
+    text-decoration: underline;
+    color: aqua;
+  }
+  .navigation a:hover{
+    color: rgb(10, 10, 155);
+  } 
+  .logo{
+    width: 30%;
+  }
+  .logo img{
+    width: 25%;
+  }
+.contaner{
+  width: 80%;
+  margin: auto;
+}
+.pra2{
+  text-align: center;
+  font-size: 20px;
+}
+/* box */
+.box{
+  width: 90%;
+  display: flex;
+  margin: auto;
+  
+  /* background-color: rgb(0, 1, 1); */
+}
+.box1 {
+  width: 20%;
+
+}
+.box1 img{
+  width: 80%;
+}
+/* about-iwin */
+.about-iwin{
+  width: 100%;
+  display: flex;
+}
+.left{
+  width: 30%;
+  margin: auto;
+}
+.left img{
+  width: 100%;
+}
+/* slide */
+.slide1{
+  width: 90%;
+  margin: auto;
+
+}
+.slide1 img{
+  width: 100%;
+
+}
+.par1 p{
+  text-align: center;
+}
+/* banner */
+
+
+
+.footer{
+  width: 80%;
+  margin: 20px auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+ width: 15%;
+}
+.footer-left img{
+  width: 80%;
+}
+.footer-center {
+  width: 65%;
+  background-color: blue;
+}
+.footer-center a{
+  text-decoration: none;
+  color: rgb(242, 22, 22);
+  margin-top: 20px;
+}
+.foot-B{
+  margin-top: 40px;
+  font-size: 15px;
+}
+.foot-A{
+  margin-top: 20px;
+}
+.foot-B a{
+  text-decoration: none;
+  color: black;
+  padding: 30px;
+}
+.footer-rigth{
+  width: 15%;
+  /* background-color: aqua; */
+}
+.icon img{
+  margin-top: 35px;
+  width: 13%;
+}
+.foot-center p hr{
+  width: 100%;
+  border: 1px solid rgb(213, 6, 6);
+}
+.footer-rigth hr{
+  margin-top: 15px;
+  border: 1px solid rgb(213, 6, 6);
+}
